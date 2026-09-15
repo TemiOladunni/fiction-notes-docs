@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — Fiction Notes</title>
+<meta name="description" content="Privacy policy for Fiction Notes, a quick-capture notes app for fiction writers." />
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fbf4eb;
+    --ink: #291c15;
+    --ink-soft: #6d6059;
+    --card: #fffdf9;
+    --line: #e1d5cc;
+    --amber: #c9690c;
+    --amber-deep: #923100;
+    --amber-tint: #f9dfcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #1c140f;
+      --ink: #f3e9df;
+      --ink-soft: #b8a99b;
+      --card: #241b15;
+      --line: #3a2c22;
+      --amber: #e08a3e;
+      --amber-deep: #ffb673;
+      --amber-tint: #3a2413;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #1c140f;
+    --ink: #f3e9df;
+    --ink-soft: #b8a99b;
+    --card: #241b15;
+    --line: #3a2c22;
+    --amber: #e08a3e;
+    --amber-deep: #ffb673;
+    --amber-tint: #3a2413;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 15.5px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--amber-deep); }
+
+  main {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    margin-bottom: 44px;
+  }
+
+  .mark {
+    width: 56px;
+    height: 56px;
+  }
+
+  h1 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1;
+    margin: 0;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  .meta {
+    font-size: 13px;
+    color: var(--ink-soft);
+    letter-spacing: 0.02em;
+  }
+
+  .callout {
+    background: var(--amber-tint);
+    border-radius: 16px;
+    padding: 20px 22px;
+    margin-bottom: 48px;
+  }
+
+  .callout .eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--amber-deep);
+    margin: 0 0 8px;
+  }
+
+  .callout p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .callout p + p { margin-top: 10px; }
+
+  section {
+    margin-bottom: 38px;
+  }
+
+  section:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 6px;
+  }
+
+  h2 {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0 0 12px;
+    color: var(--ink);
+  }
+
+  p { margin: 0 0 12px; }
+  p:last-child { margin-bottom: 0; }
+
+  ul {
+    margin: 0 0 12px;
+    padding-left: 20px;
+  }
+  ul:last-child { margin-bottom: 0; }
+  li { margin-bottom: 6px; }
+  li:last-child { margin-bottom: 0; }
+
+  .permissions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .permission {
+    display: grid;
+    grid-template-columns: 108px 1fr;
+    gap: 14px;
+    align-items: baseline;
+    padding: 14px 16px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+  }
+
+  .permission .name {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--amber-deep);
+  }
+
+  .permission .desc {
+    font-size: 13.5px;
+    color: var(--ink);
+    line-height: 1.5;
+  }
+
+  .permission .desc em {
+    font-style: normal;
+    color: var(--ink-soft);
+    font-size: 12px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 44px 0;
+  }
+
+  footer {
+    font-size: 13px;
+    color: var(--ink-soft);
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    main { padding: 48px 18px 72px; }
+    h1 { font-size: 42px; }
+    .permission { grid-template-columns: 1fr; gap: 4px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <svg class="mark" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M18 12h48l16 16v52a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8V20a8 8 0 0 1 8-8Z" fill="var(--amber)"/>
+      <path d="M66 12v16h16L66 12Z" fill="var(--amber-deep)"/>
+      <rect x="26" y="46" width="30" height="7" rx="3.5" fill="var(--card)"/>
+      <rect x="26" y="60" width="38" height="7" rx="3.5" fill="var(--card)"/>
+      <rect x="26" y="74" width="22" height="7" rx="3.5" fill="var(--card)"/>
+    </svg>
+    <h1>Privacy Policy</h1>
+    <div class="meta">Fiction Notes &nbsp;·&nbsp; Effective September 8, 2026</div>
+  </header>
+
+  <div class="callout">
+    <p class="eyebrow">The short version</p>
+    <p>Fiction Notes doesn't collect, transmit, or share any of your data. There's no account, no server, and no analytics — everything you write, record, or photograph stays on your device, in a local database only your phone can read.</p>
+    <p>The permissions the app asks for (microphone, camera, photos, Face&nbsp;ID) are used only to save things locally into your own notes. None of it ever leaves your phone.</p>
+  </div>
+
+  <section>
+    <p class="eyebrow">About</p>
+    <h2>What Fiction Notes is</h2>
+    <p>Fiction Notes is a quick-capture notes app for fiction writers, built to catch an idea — text, a voice memo, or a photo — in a couple of taps, and sort it into the right project later. It has no backend: the app you install is the whole product, and it works fully offline.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Data collection</p>
+    <h2>Information we collect</h2>
+    <p>None. Fiction Notes makes no network requests of any kind. We — the developer — have no way to see your notes, your projects, your voice recordings, your photos, or any other content or usage data, because none of it is ever sent anywhere. There is no account to create, no sign-in, and no cloud sync.</p>
+    <p>All of your content is stored in a local database and local files on your own device, using your operating system's standard app storage. If you delete the app, that storage is deleted with it.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Permissions</p>
+    <h2>Device permissions, and why</h2>
+    <p>Fiction Notes requests a small number of device permissions. Each one is used only to save something you deliberately captured into a note on your own device — never to collect data in the background, and never to transmit anything off your phone.</p>
+    <div class="permissions">
+      <div class="permission">
+        <div class="name">Microphone</div>
+        <div class="desc">Used only when you tap the record button in Quick Capture, to save a voice note. <em>Recording stops the instant you tap stop; audio is written straight to local storage.</em></div>
+      </div>
+      <div class="permission">
+        <div class="name">Camera</div>
+        <div class="desc">Used only when you choose "Take Photo" while capturing a note, to attach a picture you just took. <em>No background or automatic capture.</em></div>
+      </div>
+      <div class="permission">
+        <div class="name">Photo library</div>
+        <div class="desc">Used only when you choose "Choose from Library," to attach an existing photo to a note. <em>The app can only see the one photo you pick.</em></div>
+      </div>
+      <div class="permission">
+        <div class="name">Face ID / biometrics</div>
+        <div class="desc">Optional, off by default. If you turn on App Lock in Settings, your device's own Face ID, Touch ID, or passcode is used to unlock the app. <em>Handled entirely by your operating system — Fiction Notes never sees your biometric data.</em></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Sharing</p>
+    <h2>Third parties and advertising</h2>
+    <p>Fiction Notes contains no analytics software development kits, no advertising networks, no crash-reporting services, and no third-party trackers of any kind. Nothing about your use of the app is shared with anyone, because nothing about your use of the app leaves your device in the first place.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Your control</p>
+    <h2>Deleting your data</h2>
+    <p>You can delete any individual note from within the app at any time. To remove everything at once, uninstall the app — this deletes its local database and all attached photos and voice recordings along with it, since nothing is stored anywhere else.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Children's privacy</p>
+    <h2>Children</h2>
+    <p>Fiction Notes is not directed at children under 13, and the app does not knowingly collect information from anyone, of any age — there is simply no data collection mechanism in the app.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Updates</p>
+    <h2>Changes to this policy</h2>
+    <p>If this policy ever changes — for instance, if a future version of the app adds an optional cloud sync feature — this page will be updated and the "Effective" date above will change. Continuing to use the app after a change means you accept the updated policy.</p>
+  </section>
+
+  <hr />
+
+  <section>
+    <p class="eyebrow">Contact</p>
+    <h2>Questions</h2>
+    <p>If you have a question about this policy or the app, reach out at <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a>.</p>
+  </section>
+
+  <footer>
+    Fiction Notes — a local-only notes app for fiction writers.
+  </footer>
+
+</main>
+</body>
+</html>
