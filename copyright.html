@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Copyright — Fiction Notes</title>
+<meta name="description" content="Copyright notice for Fiction Notes, a quick-capture notes app for fiction writers." />
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fbf4eb;
+    --ink: #291c15;
+    --ink-soft: #6d6059;
+    --card: #fffdf9;
+    --line: #e1d5cc;
+    --amber: #c9690c;
+    --amber-deep: #923100;
+    --amber-tint: #f9dfcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #1c140f;
+      --ink: #f3e9df;
+      --ink-soft: #b8a99b;
+      --card: #241b15;
+      --line: #3a2c22;
+      --amber: #e08a3e;
+      --amber-deep: #ffb673;
+      --amber-tint: #3a2413;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #1c140f;
+    --ink: #f3e9df;
+    --ink-soft: #b8a99b;
+    --card: #241b15;
+    --line: #3a2c22;
+    --amber: #e08a3e;
+    --amber-deep: #ffb673;
+    --amber-tint: #3a2413;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 15.5px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--amber-deep); }
+
+  main {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    margin-bottom: 44px;
+  }
+
+  .mark {
+    width: 56px;
+    height: 56px;
+  }
+
+  h1 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1;
+    margin: 0;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  .meta {
+    font-size: 13px;
+    color: var(--ink-soft);
+    letter-spacing: 0.02em;
+  }
+
+  section {
+    margin-bottom: 38px;
+  }
+
+  section:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 6px;
+  }
+
+  h2 {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0 0 12px;
+    color: var(--ink);
+  }
+
+  p { margin: 0 0 12px; }
+  p:last-child { margin-bottom: 0; }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 44px 0;
+  }
+
+  footer {
+    font-size: 13px;
+    color: var(--ink-soft);
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    main { padding: 48px 18px 72px; }
+    h1 { font-size: 42px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <svg class="mark" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M18 12h48l16 16v52a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8V20a8 8 0 0 1 8-8Z" fill="var(--amber)"/>
+      <path d="M66 12v16h16L66 12Z" fill="var(--amber-deep)"/>
+      <rect x="26" y="46" width="30" height="7" rx="3.5" fill="var(--card)"/>
+      <rect x="26" y="60" width="38" height="7" rx="3.5" fill="var(--card)"/>
+      <rect x="26" y="74" width="22" height="7" rx="3.5" fill="var(--card)"/>
+    </svg>
+    <h1>Copyright</h1>
+    <div class="meta">Fiction Notes &nbsp;·&nbsp; Effective September 15, 2026</div>
+  </header>
+
+  <section>
+    <p class="eyebrow">Ownership</p>
+    <h2>Fiction Notes app</h2>
+    <p>© 2026 Temi Oladunni. All rights reserved. The Fiction Notes name, logo, and app design are the property of their creator and may not be copied, redistributed, or reused without permission.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Your content</p>
+    <h2>What you create</h2>
+    <p>Every note, photo, and voice recording you make inside Fiction Notes belongs entirely to you. The app claims no ownership or license over anything you write, record, or capture — see the Terms of Use for details.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">Third-party software</p>
+    <h2>Open-source acknowledgments</h2>
+    <p>Fiction Notes is built with the Expo and React Native frameworks and a number of open-source libraries, each governed by its own license. No proprietary third-party content is bundled with the app.</p>
+  </section>
+
+  <hr />
+
+  <section>
+    <p class="eyebrow">Contact</p>
+    <h2>Questions</h2>
+    <p>If you have a copyright question about the app, reach out at <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a>.</p>
+  </section>
+
+  <footer>
+    Fiction Notes — a local-only notes app for fiction writers.
+  </footer>
+
+</main>
+</body>
+</html>
